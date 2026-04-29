@@ -1,0 +1,73 @@
+{
+  "name": "@wyre-technology/node-iqms",
+  "version": "0.0.0-semantically-released",
+  "description": "Node.js / TypeScript client library for IQMS / DELMIAworks (EnterpriseIQ) — Oracle read driver and optional WebAPI write driver",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prebuild": "npm run clean",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "iqms",
+    "delmiaworks",
+    "enterpriseiq",
+    "manufacturing",
+    "erp",
+    "oracle",
+    "msp",
+    "typescript"
+  ],
+  "author": "WYRE Technology",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyre-technology/node-iqms.git"
+  },
+  "dependencies": {
+    "oracledb": "^6.6.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "@semantic-release/npm": "^13.1.4",
+    "@types/node": "^20.0.0",
+    "@types/oracledb": "^6.5.0",
+    "msw": "^2.4.0",
+    "semantic-release": "^25.0.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
