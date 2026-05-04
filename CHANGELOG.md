@@ -1,3 +1,15 @@
+# 1.0.0 (2026-05-04)
+
+
+### Bug Fixes
+
+* **add-to-project:** call shared reusable workflow ([#2](https://github.com/wyre-technology/node-iqms/issues/2)) ([d64d5b0](https://github.com/wyre-technology/node-iqms/commit/d64d5b0d1c291b4e2027fab2ab24e7271fd56417))
+
+
+### Features
+
+* initial scaffold of @wyre-technology/node-iqms ([5c15d15](https://github.com/wyre-technology/node-iqms/commit/5c15d15d6c38d7bea2d1cc1a2c3811a23acce23f))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
