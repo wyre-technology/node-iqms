@@ -56,7 +56,7 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^12.0.8",
     "@semantic-release/npm": "^13.1.4",
-    "@types/node": "^25.9.2",
+    "@types/node": "^26.0.1",
     "@types/oracledb": "^6.5.0",
     "msw": "^2.14.6",
     "semantic-release": "^25.0.3",
