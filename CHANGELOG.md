@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/wyre-technology/node-iqms/compare/v1.0.0...v1.0.1) (2026-07-23)
+
+
+### Bug Fixes
+
+* **build:** ignoreDeprecations for TS7 DTS build breakage (already on ^6.0.3) ([#24](https://github.com/wyre-technology/node-iqms/issues/24)) ([e38dac1](https://github.com/wyre-technology/node-iqms/commit/e38dac17ac989a27e59da01a92b5ae37692526be))
+* **ci:** drop Node 18.x from the test matrix (EOL, vitest 4 requires 20.12+) ([#25](https://github.com/wyre-technology/node-iqms/issues/25)) ([2bbee93](https://github.com/wyre-technology/node-iqms/commit/2bbee93bb9daf1fe7e2162df286d822d0631184e))
+* **security:** SHA-pin auto-add-to-project.yml [@main](https://github.com/main) -> [@6ae1533dd72f](https://github.com/6ae1533dd72f) (warden C-4) ([#15](https://github.com/wyre-technology/node-iqms/issues/15)) ([03ff076](https://github.com/wyre-technology/node-iqms/commit/03ff0762cbf1c6f7a03d4f48e8d00b2ce72fc529))
+
 # 1.0.0 (2026-05-04)
 
 

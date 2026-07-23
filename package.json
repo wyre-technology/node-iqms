@@ -1,6 +1,6 @@
 {
   "name": "@wyre-technology/node-iqms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js / TypeScript client library for IQMS / DELMIAworks (EnterpriseIQ) — Oracle read driver and optional WebAPI write driver",
   "type": "module",
   "main": "./dist/index.cjs",
